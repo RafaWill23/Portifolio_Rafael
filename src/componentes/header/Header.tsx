@@ -5,7 +5,7 @@ function Header(){
     return(
         <header>
             <div>
-                <img id = "logoheader" src="/src/img/RW.png" alt="" />
+                <img id='logoheader' src={logo} alt="" />
             </div>
             <nav>
                 <ul>
