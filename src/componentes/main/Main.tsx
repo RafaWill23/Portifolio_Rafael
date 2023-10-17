@@ -19,9 +19,9 @@ export default function Main(){
         },
         {
             id:2,
-            titulo:'PCMaker',
-            descricao:'Site criado para mostrar os melhores custo-benefícios de peças para computadores gamers',
-            imagem:'/pcmaker.png'
+            titulo:'Fecinavi',
+            descricao:"Feira de ciências e tecnologia de 2022.",
+            imagem:'/fecinavi.png'
         },
         {
             id:3,
