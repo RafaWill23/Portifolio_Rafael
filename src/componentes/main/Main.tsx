@@ -33,7 +33,7 @@ export default function Main(){
             id:4,
             titulo:'Site da Barbie',
             descricao:"Site que fizemos em aula e mostra os filmes com pesquisa.",
-            imagem:'/barbie.png'
+            imagem:'/barbie.jpg'
         },
         {
             id:5,
