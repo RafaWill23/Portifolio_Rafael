@@ -1,20 +1,20 @@
 import './Header.css'
-import Link from './../link/Link'
+import LinkNav from './../linknav/LinkNav'
 import imagem from './../images/logo.png'
 function Header(){
     return(
         <header>
-             <div className="imagem"><img src={imagem} alt="" /></div>
+             <div><img src={imagem} alt="" /></div>
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Home'/>
+                        <LinkNav url='/home' texto='Home'/>
                     </li>
                     <li>
-                        <Link texto='Sobre'/>
+                        <LinkNav url='/home' texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
