@@ -1,9 +1,9 @@
 import "./Contato.css";
 function Contato(){
     return(
-        <div className="Form">
-            <div className="Form2">
-                <h1 className="titulo">Escreva sua Mensagem</h1>
+        <div className="Formulario">
+            <div className="Formulario2">
+                <h1 className="titulo">Digite aqui sua Mensagem</h1>
             <input className="nome" type="text" placeholder="Nome"/>
             <input className="email" type="text" placeholder="E-mail"/>
             <input className="telefone" type="text" placeholder="Telefone" />
